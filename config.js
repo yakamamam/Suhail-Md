@@ -85,8 +85,8 @@ module.exports = {
 
   REMOVE_BG_KEY : process.env.REMOVE_BG_KEY  || "",
   OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
-  HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
-  HEROKU_APP_NAME:process.env.HEROKU_APP_NAME|| "mmapakayauba",
+  HEROKU_API_KEY: process.env.HEROKU_API_KEY || "3775114c-7be1-44fa-b09e-16ec5a229f3c",
+  HEROKU_APP_NAME:process.env.HEROKU_APP_NAME|| "mmapakayaubai",
   antilink_values:process.env.ANTILINK_VALUES|| "all",
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
 
